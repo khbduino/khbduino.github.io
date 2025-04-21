@@ -1,0 +1,14 @@
+---
+layout: default
+title: 홈
+---
+
+<h1>블로그에 오신 걸 환영합니다 👋</h1>
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date:
+    "%Y-%m-%d" }}
+  </li>
+  {% endfor %}
+</ul>

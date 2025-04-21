@@ -1,0 +1,22 @@
+body {
+  font-family: "Pretendard", sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: #fdfdfd;
+  color: #333;
+}
+
+h1,
+h2 {
+  color: #2a2a2a;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.post {
+  max-width: 720px;
+  margin: 0 auto;
+}
